@@ -1,0 +1,111 @@
+#casino-providers .card-provider {
+    height: 15.6vw;
+}
+.grand_login_card {
+    background: rgba(0, 0, 0, 0.74);
+}
+/*Scrolling Background Animation*/
+@-webkit-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -400px 0;}
+}
+
+@keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -400px 0;}
+}
+#banner .carousel-scroll {
+    height: 355px;
+    background: url('../img/bg_roll.jpg');
+    background-size: cover;
+    animation: backgroundScroll 20s linear infinite;
+}
+main #main-actions ul {
+    border-bottom: 2px solid gold;
+}
+.game-container {
+    background: url("../img/game-bg.png");
+}
+.live-info_body {
+    background: none;
+    width: 250px;
+}
+.live-menu_body {
+    background: none;
+}
+.game-table_item {
+    background-color: #0000006e;
+    box-shadow: 3px 3px 3px -2px #ccc;
+    background-image: none;
+}
+.live-header {
+    background: linear-gradient(black, #545454);
+}
+.venetian-bg {
+    background: #0000005e;
+    padding: 8px;
+    border-radius: 3px;
+}
+.custom_btn {
+    box-shadow: -3px -3px 1px -2px #ccc;
+    background-color: #0000005c;
+}
+
+#video-section, .venetian-border {
+    border: 3px solid;
+    border-image: conic-gradient(yellow, #feed00, #d95a25, yellow, #feed00, #d95a25, yellow) 1;
+    margin: 10px 6px 10px 4px;
+}
+.game-room_body {
+    background: #00000069;
+}
+.game-room_info {
+    background: none;
+}
+.game-button_item {
+    background: #0000008a;
+    border: 3px solid;
+    border-image: conic-gradient(yellow, #feed00, #d95a25, yellow, #feed00, #d95a25, yellow) 1;
+    border-radius: 0;
+    height: 87px;
+}
+.modal .modal-content {
+    background: #0b0b0dcf;
+}
+.modal .btn-transparent {
+    background: url(../img/closebutton-md.png);
+    background-size: 100%;
+}
+#game-room {
+    width: 13%;
+}
+#scoreboard .col-md-4.col-sm-5.col-xs-12.no-padding {
+    width: 37%;
+}
+
+#scoreboard .pnl_1 {
+    height: 255px;
+}
+#scoreboard .pnl_1_item {
+    width: 42px;
+    height: 42px;
+}
+.game-room_info_item {
+    height: 33.5px;
+}
+#scoreboard-small {
+    zoom: 1.14;
+}
+.live-menu_body {
+    width: 450px;
+}
+.chat-icon {
+    width: 80px;
+    height: 80px;
+}
+.chat-window-img {
+    width: 65px;
+}
+.game-table_item.disabled {
+    background: #4c4c4cc4;
+}

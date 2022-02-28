@@ -1,0 +1,203 @@
+body {
+    padding-top: 0!important;
+}
+
+.movie_pnl {
+    overflow: hidden;
+    background: black;
+    /*border: 2px solid gold;*/
+    /*border: 2px solid #ecc904;*/
+    height: 490px;
+}
+
+.igame {
+    height: 480px;
+    width: 120%;
+    border: 0px;
+    overflow: hidden;
+    margin-top: 1%;
+}
+
+.chat_list p {
+    color: black;
+}
+
+.btn-medium {
+    height: 37px;
+}
+
+.bead-count {
+    width: 20px;
+}
+
+.grow
+{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.fade 
+{
+    opacity:0.5;
+}
+
+.overlay {
+    width: 100%;
+    position: absolute;
+    background: whitesmoke;
+    opacity: 0.7;
+    height: 26%;
+    z-index: 9999;
+}
+
+.overlay h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+    opacity: 0.7;
+}
+
+.bet-table {
+    cursor: pointer;
+    text-align: center;
+}
+
+.bet-table-selected { 
+    cursor: pointer;
+}
+
+.bet-table-error {
+    position: absolute !important; 
+    top: 40%; 
+    left: 27.5%; 
+    background: #fff !important; 
+    width: 180px; 
+    display: none;
+}
+
+.player-deck {
+    position: absolute;
+    left: 4%;
+    height: 96%;
+    width: 99%;
+    margin-top: -30%;
+    margin-left: -3%;
+}
+
+.banker-deck {
+    position: absolute;
+    height: 97%;
+    width: 98%;
+    margin-top: -30%;
+    left: 1%;
+}
+
+.tie-deck {
+    position: absolute;
+    height: 80%;
+    width: 95%;
+    margin-top: -40%;
+}
+
+.player-pair-deck {
+    position: absolute;
+    height: 93%;
+    width: 98%;
+    margin-top: -40%;
+    margin-left: -5%;
+}
+
+.banker-pair-deck {
+    position: absolute;
+    height: 93%;
+    width: 98%;
+    margin-top: -40%;
+    margin-left: -5%;
+}
+
+.big-road-tie {
+    font-size: 10pt;
+    color: green;
+    position: absolute;
+    top: -5%;
+    margin-left: 25%;
+}
+
+.big-road-tie-mini {
+    font-size: 15pt;
+    color: green;
+    position: absolute;
+    top: 5%;
+    margin-left: -16%;
+}
+
+.label {
+    letter-spacing: 0.05em;
+    border-radius: 60px;
+    padding: 4px 12px 3px;
+    font-weight: 500;
+}
+
+.chips {
+    height: 61px;
+    width: 100%;
+}
+
+.w-18-p {
+    width: 18%;
+}
+
+.a{background-image: url('../img/gt_b_a.png');}
+.b{background-image: url('../img/gt_b_b.png');}
+.c{background-image: url('../img/gt_b_c.png');}
+.d{background-image: url('../img/gt_b_d.png');}
+
+.e{background-image: url('../img/gt_b_e.png');}
+.f{background-image: url('../img/gt_b_f.png');}
+.g{background-image: url('../img/gt_b_g.png');}
+.h{background-image: url('../img/gt_b_h.png');}
+
+.i{background-image: url('../img/gt_b_i.png');}
+.j{background-image: url('../img/gt_b_j.png');}
+.k{background-image: url('../img/gt_b_k.png');}
+.l{background-image: url('../img/gt_b_l.png');}
+
+.a_min{background-image: url('../img/gt_a_a-min.png');}
+.b_min{background-image: url('../img/gt_a_b-min.png');}
+.c_min{background-image: url('../img/gt_a_c-min.png');}
+.d_min{background-image: url('../img/gt_a_d-min.png');}
+
+.e_min{background-image: url('../img/gt_a_e-min.png');}
+.f_min{background-image: url('../img/gt_a_f-min.png');}
+.g_min{background-image: url('../img/gt_a_g-min.png');}
+.h_min{background-image: url('../img/gt_a_h-min.png');}
+
+.a_mark {background-image: url('../img/gt_a_a-min.png');}
+.e_mark {background-image: url('../img/gt_a_e-min.png');}
+
+.a_dot {background-image: url('../img/red_dot.png');}
+.e_dot {background-image: url('../img/blue_dot.png');}
+
+.a_line {background-image: url('../img/red_line.png');}
+.e_line {background-image: url('../img/blue_line.png');}
+
+ul.beads {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.beads li {
+  float: left;
+}
+
+ul.beads li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 3px;
+  text-decoration: none;
+}  
