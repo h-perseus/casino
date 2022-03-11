@@ -500,16 +500,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-.visible {
-  visibility: visible;
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
 
 .static {
   position: static;
-}
-
-.fixed {
-  position: fixed;
 }
 
 .absolute {
@@ -563,16 +567,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 15px;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .block {
   display: block;
-}
-
-.inline-block {
-  display: inline-block;
-}
-
-.inline {
-  display: inline;
 }
 
 .flex {
@@ -595,12 +595,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+.\!hidden {
+  display: none !important;
+}
+
+.h-\[24px\] {
+  height: 24px;
+}
+
 .h-\[15px\] {
   height: 15px;
 }
 
+.h-\[36px\] {
+  height: 36px;
+}
+
 .max-h-\[475px\] {
   max-height: 475px;
+}
+
+.w-\[24px\] {
+  width: 24px;
 }
 
 .w-\[60px\] {
@@ -623,8 +639,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 22px;
 }
 
+.w-\[112px\] {
+  width: 112px;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-\[1320px\] {
+  width: 1320px;
+}
+
 .flex-auto {
   flex: 1 1 auto;
+}
+
+.table-auto {
+  table-layout: auto;
 }
 
 .transform {
@@ -698,16 +734,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(59 32 66 / var(--tw-bg-opacity));
 }
 
-.p-5 {
-  padding: 1.25rem;
+.bg-cover {
+  background-size: cover;
 }
 
 .p-0 {
   padding: 0px;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .p-\[15px\] {
   padding: 15px;
+}
+
+.p-\[25px\] {
+  padding: 25px;
 }
 
 .px-\[30px\] {
@@ -728,6 +772,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-\[50px\] {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.pt-\[25px\] {
+  padding-top: 25px;
 }
 
 .text-center {
@@ -777,12 +825,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-yellow-300 {
   --tw-text-opacity: 1;
   color: rgb(253 224 71 / var(--tw-text-opacity));
-}
-
-.blur {
-  --tw-blur: blur(8px);
-  -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-          filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .filter {
